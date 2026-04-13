@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  height: 100vh;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  background-color: blue;
+  display: flex;
+  flex: 1;
+}
+
+.header {
+  background-color: grey;
+  height: 100px;
+}
+
+.nav {
+  background-color: purple;
+  height: 40px;
+}
+
+.footer {
+  background-color: Cyan;
+  height: 100px;
+}
+
+.aside {
+  background-color: yellow;
+  width: 40%;
+}
+
+.content {
+  background-color: red;
+  flex: 1;
+}
